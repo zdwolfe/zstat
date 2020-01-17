@@ -1,0 +1,27 @@
+#!/usr/bin/env python3
+
+import statistics
+import sys
+
+
+# Get the Xth percentile from sorted_values
+# Values must be sorted first
+# Example:
+# sorted_percentile(sorted([456, 366, 695, 773, 617, 826, 56, 78, 338, 326], 90) = 773
+def sorted_percentile(sorted_values, x):
+  index_of_percentile = int((x / 100.0) * (len(sorted_values)) - 1);
+  return sorted_values[index_of_percentile]
+
+
+def main():
+  inputs = sys.stdin.read().splitlines()
+  numerical_inputs = list(map(lambda x: int(x), inputs))
+  sorted_inputs = sorted(numerical_inputs)
+  percentiles = [50, 90, 95, 99, 99.9, 100]
+  for percentile in percentiles:
+    p = sorted_percentile(sorted_inputs, percentile)
+    print("p" + str(percentile) + " = " + str(p))
+
+
+if __name__ == "__main__":
+  main()
