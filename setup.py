@@ -9,7 +9,7 @@ with open('LICENSE.txt') as f:
 
 setup(
     name='zstat-cli',
-    version='0.1.0',
+    version='0.1.1',
     description='Bone-simple tool for generating basic numerical stats from stdin',
     long_description=readme,
     author='Zachary Wolfe',
