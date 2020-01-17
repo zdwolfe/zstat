@@ -5,8 +5,9 @@ zstat
 A bone-simple stats tool for displaying percentiles from stdin to stdout.
 Example:
 
-::
-  cat nums.txt
+:: 
+
+  $ cat nums.txt
   456
   366
   695
@@ -19,8 +20,9 @@ Example:
   326
 
 
-::
-  cat nums.txt | zstat
+:: 
+
+  $ cat nums.txt | zstat
   p0      =       56
   p50     =       366
   p90     =       773
