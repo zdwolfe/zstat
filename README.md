@@ -1,4 +1,5 @@
-= zstat =
+# zstat
+
 A bone-simple stats tool for displaying percentiles from stdin to stdout.
 
 Example:
@@ -28,7 +29,7 @@ p99.9   =       826
 p100    =       826
 ```
 
-=== Installation ===
+# Installation
 Clone this repository locally, then:
 
 ```
