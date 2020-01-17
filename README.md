@@ -35,3 +35,16 @@ Clone this repository locally, then:
 ```
 pip3 install -e .
 ```
+
+# Building
+
+```
+make
+```
+
+
+# Testing
+
+```
+make test
+```
