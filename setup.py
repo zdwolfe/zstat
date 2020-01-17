@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 
-with open('README.md') as f:
+with open('README.rst') as f:
     readme = f.read()
 
 with open('LICENSE.txt') as f:
@@ -11,7 +11,6 @@ setup(
     name='zstat-cli',
     version='0.1.0',
     description='Bone-simple tool for generating basic numerical stats from stdin',
-    long_description_content_type="text/markdown",
     long_description=readme,
     author='Zachary Wolfe',
     author_email='wolfe.zach@gmail.com',
