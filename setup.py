@@ -8,7 +8,7 @@ with open('LICENSE.txt') as f:
     license = f.read()
 
 setup(
-    name='zstat',
+    name='zstat-cli',
     version='0.1.0',
     description='Bone-simple tool for generating basic numerical stats from stdin',
     long_description=readme,
