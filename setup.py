@@ -4,12 +4,9 @@ from setuptools import setup, find_packages
 with open('README.rst') as f:
     readme = f.read()
 
-with open('LICENSE.txt') as f:
-    license = f.read()
-
 setup(
     name='zstat-cli',
-    version='0.1.1',
+    version='0.0.1',
     description='Bone-simple tool for generating basic numerical stats from stdin',
     long_description=readme,
     author='Zachary Wolfe',
