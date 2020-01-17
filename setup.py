@@ -15,7 +15,7 @@ setup(
     author='Zachary Wolfe',
     author_email='wolfe.zach@gmail.com',
     url='https://github.com/zdwolfe/zstat',
-    license=license,
+    license="MIT",
     packages=find_packages(exclude=('tests', 'docs')),
     entry_points={
         'console_scripts': ['zstat=zstat.command_line:main'],
