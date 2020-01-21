@@ -6,7 +6,7 @@
 # sorted_percentile(sorted([456, 366, 695, 773, 617, 826, 56, 78, 338, 326], 90) = 773
 def sorted_percentile(sorted_values, x):
   d_index_of_percentile = (x / 100.0) * (len(sorted_values) - 1)
-  index_of_percentile = round(d_index_of_percentile)
+  index_of_percentile = int(round(d_index_of_percentile))
   return sorted_values[index_of_percentile]
 
 
