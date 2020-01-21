@@ -33,6 +33,11 @@ Example:
 
 Installation
 =========================================================
+``pip install zstat-cli``
+
+
+Local Installation
+=========================================================
 
 Clone this repository locally, then:
 
