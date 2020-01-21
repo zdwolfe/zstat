@@ -1,7 +1,5 @@
 #!/usr/bin/env python3
 
-import statistics
-
 # Get the Xth percentile from sorted_values
 # Values must be sorted first
 # Example:

@@ -6,7 +6,7 @@ with open('README.rst') as f:
 
 setup(
     name='zstat-cli',
-    version='0.0.1',
+    version='0.1.2',
     description='Bone-simple tool for generating basic numerical stats from stdin',
     long_description=readme,
     author='Zachary Wolfe',
